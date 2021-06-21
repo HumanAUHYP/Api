@@ -64,7 +64,7 @@ namespace Api
                 Console.WriteLine("\r\nWebException Raised. The following error occured : {0}", e.Status);
                 bot.SendTextMessageAsync(botID, "Invalid word, try again!");
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 Console.WriteLine("Exeption");
             }
